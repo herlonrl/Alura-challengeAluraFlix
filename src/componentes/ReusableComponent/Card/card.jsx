@@ -5,10 +5,6 @@ import { CiEdit } from "react-icons/ci";
 import { FaExpand } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
-
-
-
 const Card = ({ edit, id, categoria, src }) => {
     const handleEditClick = (event) => {
         event.preventDefault();
@@ -18,8 +14,6 @@ const Card = ({ edit, id, categoria, src }) => {
    
     return (
         <CardContainerStyled $categoria={categoria} >
-                              
-
             <iframe
                 width="100%"
                 height="100%"
@@ -27,14 +21,12 @@ const Card = ({ edit, id, categoria, src }) => {
                 src={src}
                 allowFullScreen
             />
+
             <CardContainerButtonStyled>
-                
-                
                 <Button $size={"2rem"}>
                     <MdDelete />
                 </Button>
-                
-                
+
                 <Button $size={"1.5rem"}>
                     <Link style={{ textDecoration: "none", color: "white" }}
                         to={`/${id}`}
@@ -46,25 +38,18 @@ const Card = ({ edit, id, categoria, src }) => {
                 
                      <Button 
                      $size={"2.3rem"} 
-
                      click={handleEditClick}>
-
                           {/* <Link 
                                 style={{ textDecoration: "none", color: "white" }}
                                 to={`/edit/${props.id}`}
                                 // state={{ vd }} // Passando o objeto vd como estado
                                 > </Link> */}
                                 <CiEdit/>
-                                
-                   
-                    
                  </Button>
-                
-               
+
             </CardContainerButtonStyled>
         </CardContainerStyled>
     );
 };
-
 
 export default Card;

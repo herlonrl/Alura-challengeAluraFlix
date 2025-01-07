@@ -8,7 +8,7 @@ width: ${(props) => props.$width || "100%"};
 height: ${(props) => props.$height || "100%"};
 background-image:${(props) => `url(${props.$backgroundImage})`};
 background-color: ${(props) => props.$overlayColor || "rgba(0, 0, 0, 0.7)"};
-background-blend-mode: multiply; /* Multiplica a imagem pela cor */
+background-blend-mode: multiply;
 background-size: cover;
 background-position: center;
 
