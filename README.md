@@ -1,11 +1,6 @@
 <h1 style="text-align:center"> 🎬 AluraFlix 🎬 </h1>
-<p style="text-align:center">
- <a href="#main-features">Recursos principais</a> ❖
- <a href="#technologies">Tecnologias usadas</a> ❖
- <a href="#considerations">Considerações adicionais</a> ❖
- <a href="#about-the-project">Sobre o Projeto</a>
-</p>
-<h2 style="text-align: center"> <em>AluraFlix</em> é uma plataforma desenvolvida para gerenciar vídeos, com funcionalidades como <em>lista</em>, <em>cadastro</em>, < em>atualizar</em> e <em>excluir vídeos</em>, implementando React com JavaScript. Tudo isso é possível graças às tecnologias frontend e a um servidor simulado para operações CRUD.</h2>
+
+<h2 style="text-align: center"> <em>AluraFlix</em> é uma plataforma desenvolvida para gerenciar vídeos, com funcionalidades como <em>listar</em>, <em>cadastrar</em>, <em>atualizar</em> e <em>excluir vídeos</em>, implementando React com JavaScript. Tudo isso é possível graças às tecnologias frontend e a um servidor simulado para operações CRUD.</h2>
 
 ### 🚀 **Principais recursos**
 
