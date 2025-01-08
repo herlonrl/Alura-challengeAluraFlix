@@ -21,5 +21,4 @@
  Este projeto foi desenvolvido como parte do programa Alura Latam, para colocar em prática conceitos fundamentais de desenvolvimento frontend e simulação backend com json-server.
 
 
- ### Contribuições
-Desenvolvido por *Herlon Ludwig*
+ > **Obrigado pela visita!**
